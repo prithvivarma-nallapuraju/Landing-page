@@ -1,0 +1,202 @@
+/***
+
+This is the style sheet for that landing page
+*/
+
+
+/*------------------- General CSS -------------------------*/
+
+body {
+    font-family: Garamond, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+
+/*-------------------- Common CSS -----------------------*/
+
+.container-header,
+.container-hero {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.container-header h1,
+.container-header div {
+    border: 0.5rem solid transparent;
+}
+
+
+
+/* -------------------- Header Section CSS ------------------------ */
+
+
+.container-header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    flex: 3;
+}
+
+.container-header div {
+    align-items: center;
+    justify-content: center;
+    flex: 0.25;
+}
+
+.container-header div p {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+
+/* --------------------- Hero Section CSS ------------------------ */
+
+
+.container-hero {
+    padding: 3rem;
+}
+.container-hero  .hero-main .hero-main-text {
+    font-size: 4.25rem;
+    font-weight: bolder;
+    margin-left: 1.5rem;
+}
+
+.container-hero .hero-main .hero-secondary-text {
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #E5E7EB;
+    margin-left: 1.5rem;
+}
+
+.container-hero .hero-main button {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 0.8rem;
+    border-color: transparent;
+    color: #F9FAF8;
+    margin-left: 15rem;
+    padding: 0.5rem 2rem;
+}
+
+/*---------------------- Second Section CSS -------------------- */
+
+.some-rndm-info {
+    text-align: center;
+    margin: 2rem;
+    color: #1F2937;
+    font-size: 2.25rem;
+    font-weight: bolder;
+    margin: 2rem;
+}
+
+.container-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 20rem;
+    flex: 1;
+}
+
+.container-images div {
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.container-images div img {
+    height: 10rem;
+    width: 15rem;
+    border: 0.5rem solid #3882F6;
+    border-radius: 5%;
+}
+
+.container-images div p {
+    margin: 1rem;
+    color: #1F2937;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*--------------------------- Quote Section CSS ------------------ */
+
+.container-quotation {
+    margin: auto;
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.container-quotation .quote .quotation {
+    padding: 1rem 10rem;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 100;
+    color: #53575e;
+    flex: 1;
+}
+
+.container-quotation .quote .quoted-by {
+    font-weight: bolder;
+    font-size: 1.75rem;
+    text-align: right;
+    margin-right: 20rem;
+    flex: 1;
+}
+
+/*---------------------------- Call to action CSS ----------------------*/
+
+.call-to-action {
+    margin: 6rem 15rem;
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 0.7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action .cta {
+    flex: 3;
+    margin: 2rem;
+}
+
+.call-to-action .cta .ctamain p,
+.call-to-action .cta .ctasub p {
+    margin-left: 5rem;
+}
+.call-to-action .ctamain p {
+    font-size: 1.5rem;
+}
+
+.call-to-action .ctasub p {
+    margin-top: -1rem;
+}
+
+.call-to-action button {
+    margin-right: 5rem;
+    height: 3rem;
+    width: 4rem;
+    flex: 0.5;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0.25rem solid #F9FAF8;
+    border-radius: 0.5rem;
+}
+
+
+/*------------------------------ Footer Section CSS ---------------------*/
+
+.container-footer .footer {
+    display: flex;
+    padding: 5rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 1.5rem;
+}
+
